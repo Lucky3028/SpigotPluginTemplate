@@ -1,0 +1,13 @@
+name: Debug
+version: @version@
+main: com.lucky3028.debug.Debug
+
+commands:
+  custom:
+    usage: /custom
+    description: This is CustomCommand implemented by "debug" plugin.
+
+permissions:
+  debug.custom:
+    description: This command is a command to debugging.
+    default: true
